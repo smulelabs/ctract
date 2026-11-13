@@ -1,0 +1,11 @@
+[package]
+name = "ctract-reference-oracle"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[workspace]
+
+[dependencies]
+chimera = { git = "https://github.com/jamesondh/chimera-vocal-synth", rev = "eed4a5ff2695" }
+serde_json = "1"
